@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 def home():
-    return {"message": "Hello World"}
+    return {"message": "Hello World, from IK class enjoy it"}
 
 if __name__ == "__main__":
     import uvicorn
